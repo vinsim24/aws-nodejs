@@ -1,4 +1,11 @@
 {
+    "name": "aws-nodejs",
+    "version": "1.0.0",
+    "description": "Project to demonstrate usage of the AWS SDK for Node.js",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:vinsim24/aws-nodejs.git"
+    },
     "dependencies": {
         "aws-sdk": ">= 2.0.9",
         "node-uuid": ">= 1.4.1",

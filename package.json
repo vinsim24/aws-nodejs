@@ -1,6 +1,15 @@
 {
     "dependencies": {
         "aws-sdk": ">= 2.0.9",
-        "node-uuid": ">= 1.4.1"
+        "node-uuid": ">= 1.4.1",
+        "npm": "^5.4.2",
+        "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.6.0",
+        "nodemon": "^1.12.1"
     }
 }

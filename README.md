@@ -8,6 +8,8 @@ The only requirement of this application is the Node Package Manager. All other
 dependencies (including the AWS SDK for Node.js) can be installed with:
 
     npm install
+    or
+    yarn install
 
 ## Basic Configuration
 
@@ -34,6 +36,12 @@ create the file to upload. All you need to do is run it:
 
 The S3 documentation has a good overview of the [restrictions for bucket names](http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)
 for when you start making your own buckets.
+
+Also to run the script to prepare resource records(i.e., is to dump from one hosted zone to another hosted zone), run the following:
+
+    node index.js "<Hosted Zone Id>" "DNS Record Type"
+    e.g., node index.js "AHJFHJ89989SHD" "A"
+          node index.js "AHJFHJ89989SHD" "CNAME"
 
 ## License
 

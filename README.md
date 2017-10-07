@@ -41,9 +41,9 @@ for when you start making your own buckets.
 
 Also to run the script to prepare resource records(i.e., is to dump from one hosted zone to another hosted zone), run the following:
 
-    node index.js "<Hosted Zone Id>" "DNS Record Type"
-    e.g., node index.js "AHJFHJ89989SHD" "A"
-          node index.js "AHJFHJ89989SHD" "CNAME"
+    node index.js "<Hosted Zone Id>" "DNS Record Type" "DNS Action"
+    e.g., node index.js "AHJFHJ89989SHD" "A" "UPSERT"
+          node index.js "AHJFHJ89989SHD" "CNAME" "UPSERT"
 
 ## License
 

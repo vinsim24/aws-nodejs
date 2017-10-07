@@ -37,6 +37,8 @@ create the file to upload. All you need to do is run it:
 The S3 documentation has a good overview of the [restrictions for bucket names](http://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)
 for when you start making your own buckets.
 
+## Running Route53 scripts
+
 Also to run the script to prepare resource records(i.e., is to dump from one hosted zone to another hosted zone), run the following:
 
     node index.js "<Hosted Zone Id>" "DNS Record Type"
